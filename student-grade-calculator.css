@@ -1,0 +1,45 @@
+/*
+ Author: Sebastian Jaculbe
+*/
+header {
+    text-align: center;
+}
+body {
+    background-color: beige;
+    text-align: center;
+}
+table {
+    border: 3px solid;
+    border-color: black;
+
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+th {
+    border: 1px solid;
+    border-color: black;
+    background-color: rgb(32, 177, 32);
+    font-style: white; 
+    height: 50px;
+}
+td {
+    border: 1px solid;
+    border-color: black;
+    background-color: lightgray;
+    font-style: black;
+    height: 40px;
+}
+input {
+    font-family: 'Times New Roman', Times, serif;
+}
+button {
+    height: 40px;
+    width: 100px;
+    color: green;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 3px;
+}

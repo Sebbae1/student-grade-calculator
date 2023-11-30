@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Author: Sebastian Jaculbe
+    Project: Student Grade Calculator
+    Credits: Geeks for Geeks and ChatGPT
+-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <!--Link HTML Page to CSS-->
+    <link rel="stylesheet" href="student-grade-calculator.css">
+    <!--Link Calculator Image to Website's Favicon-->
+    <link rel="shortcut icon" type="image/png" href="calculator.png">
+</head>
+<body>
+<!--
+Three components to <body> tag:
+1) Header (Title)
+2) Section (Table)
+3) Footer (Results)
+-->
+    <header>
+        <h1>Student Grade Calculator</h1>
+    </header>
+    <section>
+        <div>
+        <table><!--Table-->
+            <tr> <!--Table Header-->
+                <th>Class:</th>
+                <th>Percentage Grade:</th>
+            </tr>
+            <tr>
+                <td><input id="input11" type="text"></td>
+                <td><input id="input13" type="text"></td>
+            </tr>
+            <tr>
+                <td><input id="input21" type="text"></td>
+                <td><input id="input23" type="text"></td>
+            </tr>
+            <tr>
+                <td><input id="input31" type="text"></td>
+                <td><input id="input33" type="text"></td>
+            </tr>
+            <tr>
+                <td><input id="input41" type="text"></td>
+                <td><input id="input43" type="text"></td>
+            </tr>
+            <tr>
+                <td><input id="input51" type="text"></td>
+                <td><input id="input53" type="text"></td>
+            </tr>
+        </table>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <br>
+            <br>
+            <button onclick="calculateGrade()">Calculate</button>
+            <!--Link HTML Page with Javascript-->
+            <script src="student-grade-calculator.js"></script>
+            <br>
+            <br>
+            <br>
+        <table>
+            <tr>
+                <th>Letter Grade:</th>
+                <th>Percentage Grade:</th>
+            </tr>
+            <tr> <!--Javascript Command will Display the letterGrade and percentageGrade into the table-->
+                <td id="letterGrade"></td>
+                <td id="percentageGrade"></td>
+            </tr>
+        </table>
+        </div>
+    </footer>
+</body>
+</html>
