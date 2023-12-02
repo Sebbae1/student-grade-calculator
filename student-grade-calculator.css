@@ -21,15 +21,13 @@ table {
 th {
     border: 1px solid;
     border-color: black;
-    background-color: rgb(32, 177, 32);
-    font-style: white; 
+    background-color: rgb(32, 177, 32); 
     height: 50px;
 }
 td {
     border: 1px solid;
     border-color: black;
     background-color: lightgray;
-    font-style: black;
     height: 40px;
 }
 input {
